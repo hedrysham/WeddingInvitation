@@ -23,7 +23,7 @@ const INVITATION = {
   rsvpWhatsApp: "60129744056",
   // URL web app (cth. Google Apps Script) untuk kongsi ucapan: GET -> [{name, message}], POST -> simpan ucapan.
   wishesEndpoint: "https://script.google.com/macros/s/AKfycbwpRMLibzXLFUBWwBNGcIjdC_LbZtkpHBJU8H6ea3pRuZbZ61cXRDbwtwG4xc3dB7I0/exec",
-  videoSrc: "WeddingInvitationIka%26Hedry.mp4",
+  videoSrc: "invitation.mp4",
   venuePhoto: "bunga-raya.jpg"
 };
 
