@@ -6,12 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#FFFFFF">
 
+  <!-- SEO -->
   <meta name="description" content="Jemputan Walimatul Urus | 2 Januari 2027">
 
   <title>Hedry &amp; Shafiqah | Wedding Invitation</title>
 
   <!-- Favicon -->
-  <link rel="icon" type="image/png" sizes="any" href="Favicon.png?v=4">
+  <link rel="icon" type="image/png" href="Favicon.png?v=4">
   <link rel="shortcut icon" type="image/png" href="Favicon.png?v=4">
   <link rel="apple-touch-icon" href="Favicon.png?v=4">
 
@@ -20,10 +21,16 @@
 
   <!-- Open Graph / WhatsApp Preview -->
   <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Jemput Online">
   <meta property="og:url" content="https://jemput.online/Hedry-Ika/">
   <meta property="og:title" content="Hedry &amp; Shafiqah | Wedding Invitation">
   <meta property="og:description" content="Jemputan Walimatul Urus | 2 Januari 2027">
+
   <meta property="og:image" content="https://jemput.online/Hedry-Ika/H.jpg">
+  <meta property="og:image:secure_url" content="https://jemput.online/Hedry-Ika/H.jpg">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="Hedry &amp; Shafiqah Wedding Invitation">
 
   <!-- Twitter Preview -->
@@ -48,6 +55,7 @@
 </head>
 
 <body>
+
   <main class="stage" id="stage">
     <video class="stage__video" id="invitation-video" playsinline loop preload="auto" aria-label="Video jemputan perkahwinan"></video>
 
@@ -68,12 +76,15 @@
 
   <nav class="bar" id="bar" aria-label="Menu jemputan">
     <div class="bar__list">
+
       <button class="bar__item" type="button" data-popup="lokasi">
-        <i class="fa-solid fa-location-dot" aria-hidden="true"></i><span>Lokasi</span>
+        <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+        <span>Lokasi</span>
       </button>
 
       <button class="bar__item" type="button" data-popup="kalendar">
-        <i class="fa-regular fa-calendar" aria-hidden="true"></i><span>Kalendar</span>
+        <i class="fa-regular fa-calendar" aria-hidden="true"></i>
+        <span>Kalendar</span>
       </button>
 
       <button class="bar__item bar__item--featured" type="button" data-popup="kehadiran">
@@ -88,12 +99,15 @@
       </button>
 
       <button class="bar__item" type="button" data-popup="hubungi">
-        <i class="fa-solid fa-phone" aria-hidden="true"></i><span>Hubungi</span>
+        <i class="fa-solid fa-phone" aria-hidden="true"></i>
+        <span>Hubungi</span>
       </button>
 
       <button class="bar__item" type="button" data-popup="ucapan">
-        <i class="fa-regular fa-comment" aria-hidden="true"></i><span>Ucapan</span>
+        <i class="fa-regular fa-comment" aria-hidden="true"></i>
+        <span>Ucapan</span>
       </button>
+
     </div>
 
     <p class="bar__credit">Developed By Hedrysham</p>
@@ -101,6 +115,7 @@
 
   <div class="popup" id="popup" role="dialog" aria-modal="true" hidden>
     <div class="popup__inner">
+
       <header class="popup__head">
         <h3 class="popup__title" id="popup-title"></h3>
         <button class="popup__close" type="button" data-close aria-label="Tutup">
@@ -111,9 +126,11 @@
       <div class="popup__body" id="popup-body"></div>
 
       <button class="popup__back" type="button" data-close>Tutup</button>
+
     </div>
   </div>
 
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
 </body>
 </html>
