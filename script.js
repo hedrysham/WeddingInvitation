@@ -22,9 +22,9 @@ const INVITATION = {
   rsvpEndpoint: "https://script.google.com/macros/s/AKfycbwpRMLibzXLFUBWwBNGcIjdC_LbZtkpHBJU8H6ea3pRuZbZ61cXRDbwtwG4xc3dB7I0/exec",
   rsvpWhatsApp: "60129744056",
   // URL web app (cth. Google Apps Script) untuk kongsi ucapan: GET -> [{name, message}], POST -> simpan ucapan.
-  wishesEndpoint: "https://script.google.com/macros/s/AKfycbwpRMLibzXLFUBWwBNGcIjdC_LbZtkpHBJU8H6ea3pRuZbZ61cXRDbwtwG4xc3dB7I0/exec",
-  videoSrc: "WeddingInvitationIka%26Hedry.mp4",
-  venuePhoto: "bunga-raya.jpg"
+wishesEndpoint: "https://script.google.com/macros/s/AKfycbwpRMLibzXLFUBWwBNGcIjdC_LbZtkpHBJU8H6ea3pRuZbZ61cXRDbwtwG4xc3dB7I0/exec",
+videoSrc: "https://pub-8157118f3bc34950ac27c8b24306242f.r2.dev/WeddingInvitationIka%26Hedry.mp4",
+venuePhoto: "bunga-raya.jpg"
 };
 
 const TIME_ZONE = "Asia/Kuala_Lumpur";
