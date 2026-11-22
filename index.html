@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="ms">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#FFFFFF">
+  <meta name="description" content="Join us as we celebrate the beginning of our forever. Hedry &amp; Shafiqah, 1 &amp; 2 January 2027.">
+  <title>Hedry &amp; Shafiqah | Wedding Invitation</title>
+  <link rel="icon" type="image/png" sizes="any" href="Favicon.png?v=4">
+  <link rel="shortcut icon" type="image/png" href="Favicon.png?v=4">
+  <link rel="apple-touch-icon" href="Favicon.png?v=4">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Hedry &amp; Shafiqah | Wedding Invitation">
+  <meta property="og:description" content="Join us as we celebrate the beginning of our forever. Hedry &amp; Shafiqah, 1 &amp; 2 January 2027.">
+  <meta property="og:image" content="Favicon.png?v=4">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Hedry &amp; Shafiqah | Wedding Invitation">
+  <meta name="twitter:image" content="Favicon.png?v=4">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="stage" id="stage">
+    <video class="stage__video" id="invitation-video" playsinline loop preload="auto" aria-label="Video jemputan perkahwinan"></video>
+
+    <div class="stage__placeholder" id="placeholder">
+      <span class="stage__kicker">Walimatulurus</span>
+      <h1 class="stage__names" id="placeholder-names"></h1>
+      <span class="stage__rule" aria-hidden="true"></span>
+      <span class="stage__day" id="placeholder-day"></span>
+      <span class="stage__date" id="placeholder-date"></span>
+    </div>
+  </main>
+
+  <div class="gate" id="gate">
+    <div class="gate__half gate__half--left"></div>
+    <div class="gate__half gate__half--right"></div>
+    <button class="gate__button" id="open-invitation" type="button">Buka Jemputan</button>
+  </div>
+
+  <nav class="bar" id="bar" aria-label="Menu jemputan">
+    <div class="bar__list">
+      <button class="bar__item" type="button" data-popup="lokasi">
+        <i class="fa-solid fa-location-dot" aria-hidden="true"></i><span>Lokasi</span>
+      </button>
+      <button class="bar__item" type="button" data-popup="kalendar">
+        <i class="fa-regular fa-calendar" aria-hidden="true"></i><span>Kalendar</span>
+      </button>
+      <button class="bar__item bar__item--featured" type="button" data-popup="kehadiran">
+        <span class="bar__float" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="8" height="4" x="8" y="2" rx="1" ry="1"/><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><path d="m9 14 2 2 4-4"/></svg>
+        </span><span>Kehadiran</span>
+      </button>
+      <button class="bar__item" type="button" data-popup="hubungi">
+        <i class="fa-solid fa-phone" aria-hidden="true"></i><span>Hubungi</span>
+      </button>
+      <button class="bar__item" type="button" data-popup="ucapan">
+        <i class="fa-regular fa-comment" aria-hidden="true"></i><span>Ucapan</span>
+      </button>
+    </div>
+    <p class="bar__credit">Developed By Hedrysham</p>
+  </nav>
+
+  <div class="popup" id="popup" role="dialog" aria-modal="true" hidden>
+    <div class="popup__inner">
+      <header class="popup__head">
+        <h3 class="popup__title" id="popup-title"></h3>
+        <button class="popup__close" type="button" data-close aria-label="Tutup"><i class="fa-solid fa-xmark" aria-hidden="true"></i></button>
+      </header>
+      <div class="popup__body" id="popup-body"></div>
+      <button class="popup__back" type="button" data-close>Tutup</button>
+    </div>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
