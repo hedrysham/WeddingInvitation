@@ -6,7 +6,7 @@ A small, dependency-free single-page wedding invitation. Open `index.html` in a 
 
 Edit the `INVITATION` object at the top of `script.js`:
 
-- Set `couple` (e.g. `"Nana & Yusran"`) to show the couple's names on the opening screen; if empty, the event title is used.
+- Set `couple` to show the couple's names on the opening screen; if empty, the event title is used.
 - Replace the date/end date, venue, address, Maps and Apple Maps links, and contacts.
 - To use your video, place it in this folder (or an `assets` folder) and set `videoSrc` to its relative path, for example `"assets/our-invitation.mp4"`. The video plays (with sound) when the guest taps "Buka Jemputan" and stops on its last frame.
 - Until a video is set, a placeholder background with the weekday and date is shown.
